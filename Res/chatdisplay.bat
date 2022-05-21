@@ -7,5 +7,5 @@ type Banner
 ping 0.0.0.0 >nul
 cls
 git pull https://github.com/XavierHale/ChatTest
-cls
+timeout 3 >nul
 goto :loop
